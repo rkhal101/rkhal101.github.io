@@ -1,0 +1,25 @@
+# Site settings
+title: Rana Khalil
+email: rkhal101@uottawa.ca
+description: "Student at the University of Ottawa studying Master of Computer Science"
+
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+linkedin_username: ranakhalil1
+github_username:  rkhal101
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+job.title: "Assistant Professor"
+excerpt_separator: "<!--more-->"
+
+# SEO stuff
+# google_author: ""
+# google_site_verification: ""
+# bing_webmastertools_id: ""
