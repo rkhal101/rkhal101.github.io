@@ -16,7 +16,7 @@ The objectives for this course are:
 - Understand how to create and manage databases using SQL.
 - Design a web application that uses a database in a team project.
 
-This course does not have a public website. A github link to the material I teach in this course will be provided at a later time.
+This course does not have a public website. A github link to the material I teach in this course can be found [here](https://github.com/rkhal101/CSI2132-Databases-I).
 
 **Fall 2017**:
 
