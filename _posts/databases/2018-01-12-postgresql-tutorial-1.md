@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PostgreSQL Beginner Tutorial I"
+title: "PostgreSQL Beginner Tutorial I: Getting Started with pgAdmin 4"
 author: Rana Khalil
 categories: [databases]
 description: A beginner tutorial to PostgreSQL using pgAdmin 4.

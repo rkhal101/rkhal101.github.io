@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PostgreSQL Beginner Tutorial II"
+title: "PostgreSQL Beginner Tutorial II: Basic SQL Programming"
 author: Rana Khalil
 categories: [databases]
 description: A beginner tutorial to PostgreSQL using pgAdmin 4.
@@ -235,7 +235,7 @@ DELETE FROM Artwork;
 DELETE FROM Artist;
 ```
 
-This concludes our tutorial. In the next tutorial we will cover the remaining basic material in SQL programming.
+This concludes our tutorial. In the [next tutorial](/_posts/databases/postgresql_tutorial3) we will cover the remaining basic material in SQL programming.
 
 **References**: 
 - Most of the examples and queries presented in this tutorial are taken from the CSI2132 lab 2 material that can be found [here](https://github.com/rkhal101/CSI2132-Databases-I/tree/master/labs/lab2).  
