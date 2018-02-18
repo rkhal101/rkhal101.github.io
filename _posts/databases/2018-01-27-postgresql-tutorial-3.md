@@ -109,7 +109,7 @@ WHERE <condition>
 GROUP BY <grouping attributes>
 ```
 
-Note that if an attribute appears in the SELECT query it has to appear in the GROUP BY statement unless it is part of an aggregate function. Also, an aggregate function cannot appear in the SELECT query unless the query contains a GROUP BY clause. 
+Note that if an attribute appears in the SELECT query it has to appear in the GROUP BY statement unless it is part of an aggregate function.
 
 In order for us to demonstrate the GROUP BY functionality with an example, we need to add an extra row to the Artist table:
 
