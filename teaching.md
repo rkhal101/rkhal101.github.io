@@ -6,9 +6,23 @@ permalink: /teaching/
 
 During my graduate degree, I'm working as a Teaching Assistant (TA) for a variety of undergraduate computer science courses at the University of Ottawa. This involves teaching weekly lab/tutorial sessions, holding weekly office hours, grading theory and programming assignments and proctoring midterms and final exams. Below is a list of courses I'm currently TA-ing and have previously TA-ed.
 
-**Winter 2018 (Current)**:
+**Spring-Summer 2018 (Current)**:
 
-_CSI2132 Database I_ 
+_CSI3140  WWW Structures, Techniques and Standards_
+
+The objectives for this course are:
+
+- Understand the World Wide Web fundamentals and protocols.
+- Learn client side programming.
+- Learn server side programming.
+
+The course website can be found [here](http://www.site.uottawa.ca/~ttran/teaching/csi3140x/).
+
+
+
+**Winter 2018**:
+
+_CSI2132 Databases I_ 
 
 The objectives for this course are:
 
