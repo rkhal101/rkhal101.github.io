@@ -42,7 +42,7 @@ The tables (and associations between tables) that we are going to create are pre
 
 <center><img src="/images/blogs/pgadmin-tutorial-2/er_diagram.png" width="90%" height="90%" style="border: 2px solid black"/></center><br>
 
- We can model the data in the ER diagram above using 4 tables. Since the focus of this tutorial is to to learn SQL programming, I will not explain how to convert an ER diagram to a relational schema (a tutorial about that is in the works!). The following are the four tables that we need to create. 
+ We can model the data in the ER diagram above using 4 tables. Since the focus of this tutorial is to to learn SQL programming, I will not explain how to convert an ER diagram to a relational schema. The following are the four tables that we need to create. 
 
 <center><img src="/images/blogs/pgadmin-tutorial-2/tables.png" width="60%" height="60%" style="border: 2px solid black"/></center><br>
 

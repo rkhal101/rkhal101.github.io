@@ -149,7 +149,7 @@ HAVING max(Age) < 81;
 ```
 The group selection condition should now remove the "Impressionism" style from the resulting table.
 
-This concludes our tutorial. In the next tutorial we will cover advanced SQL queries.
+This concludes our tutorial.
 
 **References**: 
 - Most of the examples and queries presented in this tutorial are taken from the CSI2132 lab 3 material that can be found [here](https://github.com/rkhal101/CSI2132-Databases-I/tree/master/labs/lab3).  
