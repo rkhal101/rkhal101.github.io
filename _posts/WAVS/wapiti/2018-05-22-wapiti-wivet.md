@@ -10,7 +10,7 @@ permalink: /_posts/WAVS/wapiti/wapiti_wivet
 
 In this tutorial, we'll run a scan with the default Wapiti configuration on the [WIVET](https://github.com/bedirhan/wivet) application to determine the crawling coverage of the Wapiti scanner. 
 
-Prerequisites: Run the WIVET application ([covered here](/_posts/WAVS/wivet)). For this tutorial, the WIVET application is run on localhost port 8090 and Wapiti version 3.0.1 is used which is pre-installed in Kali.
+Prerequisites: Run the WIVET application ([covered here](/_posts/WAVS/wivet)). For this tutorial, the WIVET application is run on localhost port 8090 and [Wapiti](http://wapiti.sourceforge.net/) version 3.0.1 is used.
 
 The topics covered are:
 - Scanner Configuration
@@ -18,7 +18,7 @@ The topics covered are:
 
 
 ## Scanner Configuration
-The following script (wapiti-script.sh) is used to run Wapiti against the WIVET application.
+The following script (wapiti-wivet-script.sh) is used to run Wapiti against the WIVET application.
 
 ```*
 #!bin
@@ -35,7 +35,7 @@ The first line indicates the URL that will be used as a base for the scan. The r
 To run the script, fire up the terminal, navigate to where the script is saved and run the following command:
 
 ```*
-bash wapiti-script.sh
+bash wapiti-wivet-script.sh
 ```
 
 Once the scan is finished, wapiti will output the location of the generated report as shown in the below figure:
