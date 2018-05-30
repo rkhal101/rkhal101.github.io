@@ -10,7 +10,7 @@ permalink: /_posts/WAVS/wapiti/wapiti_wivet
 
 In this tutorial, we'll run a scan with the default Wapiti configuration on the [WIVET](https://github.com/bedirhan/wivet) application to determine the crawling coverage of the Wapiti scanner. 
 
-Prerequisites: Run the WIVET application ([covered here](/_posts/WAVS/wivet)). For this tutorial, the WIVET application is run on localhost port 8090 and Wapiti version 2.3.0 is used which is pre-installed in Kali.
+Prerequisites: Run the WIVET application ([covered here](/_posts/WAVS/wivet)). For this tutorial, the WIVET application is run on localhost port 8090 and Wapiti version 3.0.1 is used which is pre-installed in Kali.
 
 The topics covered are:
 - Scanner Configuration
@@ -22,7 +22,7 @@ The following script (wapiti-script.sh) is used to run Wapiti against the WIVET 
 
 ```*
 #!bin
-wapiti http://127.0.0.1:8090/ \
+wapiti -u http://127.0.0.1:8090/ \
 -x http://127.0.0.1:8090/logout.php \
 -x http://127.0.0.1:8090/offscanpages.* \
 -x http://127.0.0.1:8090/pages/100.php
@@ -42,10 +42,10 @@ Once the scan is finished, wapiti will output the location of the generated repo
 
 <center><img src="/images/blogs/wapiti/wapiti-terminal-output.png" width="70%" height="70%" style="border: 2px solid black"/></center><br>
 
-For this specific application, we are not interested in the vulnerability count. Instead, we're interested in the crawling coverage of the scanner which is automatically calculated by the WIVET application. In order to view the crawling coverage in the WIVET application, click on the Current Run link on the left menu. As can be seen in the below image, the Wapiti scanner achieves a score of 44%.
+For this specific application, we are not interested in the vulnerability count. Instead, we're interested in the crawling coverage of the scanner which is automatically calculated by the WIVET application. In order to view the crawling coverage in the WIVET application, click on the Current Run link on the left menu. As can be seen in the below image, the Wapiti scanner achieves a score of 50%.
 
 <center><img src="/images/blogs/wapiti/wapiti-wivet.png" width="70%" height="70%" style="border: 2px solid black"/></center><br>
 
 
 ## WIVET Result
-Wapiti scores a crawling coverage of 44% (slightly better than [ZAP](/_posts/WAVS/ZAP/zap_wivet)), which is pretty low! One thing to note is the test was done under the default settings. It is possible that if the scan is configured appropriately the crawling coverage might be significantly higher. 
+Wapiti scores a crawling coverage of 50% (slightly better than [ZAP](/_posts/WAVS/ZAP/zap_wivet)), which is still pretty low! One thing to note is that the test was done under the default settings. It is possible that if the scanner is configured appropriately the crawling coverage might be significantly higher. 
